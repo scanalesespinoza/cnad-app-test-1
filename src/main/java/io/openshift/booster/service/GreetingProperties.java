@@ -23,7 +23,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties("greeting")
 public class GreetingProperties {
 
-    private String message = "Muy buenos días!, %s!";
+    private String message = "Muy buenos dias!, %s!";
 
     public String getMessage() {
         return message;
